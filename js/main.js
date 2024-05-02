@@ -71,7 +71,7 @@ var clickUpgrade2CostNext = 0;
 var allUpgradeCostNext = 0;
 var clickUpgrade3CostNext = 0;
 
-var nutKidDamage = 0.1;
+var nutKidDamage = 1090978978678567453424364534373454385858456845846854856;
 var nutBoyDamage = 1;
 var nutManDamage = 8;
 var nutFarmDamage = 47;
@@ -84,7 +84,7 @@ var deezNutGuyDamage = 1600000;
 var nutTimeTravelDamage = 10000000;
 var nutUniversalDominationDamage = 65000000;
 var nutGodDamage = 430000000;
-var nutAfterlifeDamage = 2900000000;
+var nutAfterlifeDamage = 290000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;
 var totalDamage = 0;
 
 var buyAudio = new Audio('audio/buy.wav');
