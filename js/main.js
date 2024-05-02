@@ -71,7 +71,7 @@ var clickUpgrade2CostNext = 0;
 var allUpgradeCostNext = 0;
 var clickUpgrade3CostNext = 0;
 
-var nutKidDamage = 1090978978678567453424364534373454385858456845846854856;
+var nutKidDamage = 0.1;
 var nutBoyDamage = 1;
 var nutManDamage = 8;
 var nutFarmDamage = 47;
@@ -84,7 +84,7 @@ var deezNutGuyDamage = 1600000;
 var nutTimeTravelDamage = 10000000;
 var nutUniversalDominationDamage = 65000000;
 var nutGodDamage = 430000000;
-var nutAfterlifeDamage = 290000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;
+var nutAfterlifeDamage = 1000000000000000;
 var totalDamage = 0;
 
 var buyAudio = new Audio('audio/buy.wav');
@@ -1775,7 +1775,7 @@ function Gamble(level){
 
 		case 2:
 			var randomNumber = Math.floor(Math.random() * 8) + 1;
-			var multiplyAmount = 6;
+			var multiplyAmount = 23748927189427194728914729837489173984721389472389174123897;
 		break;
 
 		case 3:
@@ -1828,7 +1828,8 @@ function ScissorsPaperRock(pick){
 				} else if (randomNumber == 2){
 					var botPick = "rock";
 				} else if (randomNumber == 3){
-					var botPick = "scissors";
+			
+				var botPick = "scissors";
 				}
 
 				if(botPick == "paper" && pick == "scissors"){
